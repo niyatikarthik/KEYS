@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/private/index.html",
+    "href": "posts/private/index.html",
+    "title": "Public & Private keys",
+    "section": "",
+    "text": "What is a Public / Private Key?\nPublic keys and private keys are the working parts of Public-key cryptography. Together, they encrypt and decrypt data that resides or moves in a network. The public key is public to all and can be shared to anyone, while the private key is only known to the owner. In order for a client to establish a secure connection with a server.\nPhoto :https://www.twilio.com/blog/what-is-public-key-cryptography\n*(is a cryptographic system in which keys come in pairs. The transformation performed by one of the keys can only be undone with the other key. One key (the private key) is kept secret while the other is made public.)\n\n\nWhat do they do?\nA public key is also used to encrypt a message or check the *legitimacy of a digital signature. It is accompanied by a corresponding private key, which is known only to its owner. Private keys are used to decrypt messages that were created with the corresponding public key, or to create signatures. In other words, a public key locks up data from unauthorized use, while a private key is used to unlock it.\n*legitimacy:(conformity to the law or to rules)\n\n\nHow are they generated?\nPublic keys are created using an asymmetric algorithm, which pairs the public key with an associated private key, one for encryption and the other for decryption. The most common algorithms used to generate public keys are Rivest-Shamir-Adleman, elliptic curve cryptography and Digital Signature Algorithm.\n\n\nCan you hack them?\nHere are some comments of people answering this question\n-Nothing prevents a hacker from sniffing the public key, because it is public. -They cannot decrypt data received over SSL because the actual AES encryption key used to encrypt said data is, itself, encrypted by both participants’ private keys during the Diffie-Hellman exchange. D-H is what allows two agents to use a public space to establish a shared secret. When implemented properly, it is unbreakable. -A public key can be sniffed because it is public. -If your “public” is actually the private key, you have a serious design problem in your protocol. Private keys need to be kept in secret. If you encrypt the data with the private key, there is no problem in this case, because you are only signing it and anyone who knows your public key is able (must be) to check the validity of it (of course you should follow the best practices when signing something, avoid schoolbook modes, etc). -Now for session keys, depeding on the key exchange method, you should google about some techniques for detecting session hijacking and/or man-in-the-middle attacks. There are also some modified versions of\nDiffie-Hellman-Merkle that could mitigate those attacks, google about.\n\n\nThank you.\nI hope this has helped you in understanding the difference between public and private keys. Thank you."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "keys",
+    "section": "",
+    "text": "R\n\n\n\n\n\n\n\n\n\n\n\nAug 11, 2022\n\n\nNiyati\n\n\n\n\n\n\nNo matching items"
+  }
+]
